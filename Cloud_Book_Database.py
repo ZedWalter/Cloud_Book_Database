@@ -1,7 +1,7 @@
 import pymongo
 from pymongo import MongoClient
 
-client = MongoClient('mongodb+srv://Zed:<Walter>@cluster0.jhe6s.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://Zed:Walter@cluster0.jhe6s.mongodb.net/?retryWrites=true&w=majority')
 db = client["Books"]
 collection = db["Info"]
 
@@ -25,13 +25,13 @@ while choice != "0":
         author = input("Author: ")
         status = input("Status: ")
         score = input("Score: ")
-        collection = {
+        post = {
             "Title": title,
             "Author": author,
             "Status": status,
-            "Score": score,
+            "Score": score
         }
-        collection.insert_one(collection)
+        collection.insert_one(post)
     elif choice == "3":
         #Delete a book from the list
         title = input("Title: ")
