@@ -1,5 +1,3 @@
-# Cloud_Book_Database
-
 # Overview
 I started this project to learn more about databases and using/storing them in the cloud. I'm using MongoDB to host my database and the information inside it,
 and I'm using the pymongo library to be able to use python as my language of choice to interace with the MongoDB database.
