@@ -7,7 +7,7 @@ book or all books that you have rated a 10 out of 10. Additional functionality w
 delete, and update books and their ratings in the database.
 
 
-[Software Demo Video]()
+[Software Demo Video](https://youtu.be/qEBKN42XUUk)
 
 # Development Environment
 
@@ -21,6 +21,7 @@ delete, and update books and their ratings in the database.
 
 * [pymongo Documentaion](https://pymongo.readthedocs.io/en/stable/)
 * [W3schools pymongo tutorials](https://www.w3schools.com/python/python_mongodb_getstarted.asp)
+* [pymongo tutorial video](https://www.youtube.com/watch?v=rE_bJl2GAY8&list=LL&index=1)
 
 # Future Work
 
